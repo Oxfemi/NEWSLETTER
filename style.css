@@ -26,8 +26,31 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 80vh;
     box-shadow: inset;
     background-color: #F9FAFB;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 128px 0;
+    height: 50%;
+    background-color: #F9FAFB;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+    height: 80%;
+    width: 80%;
+    /* box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08); */
+    border-radius: 16px 16px;
 }
 
 .logo {
@@ -42,28 +65,19 @@ body {
 
 .info {
     font: 400 20px;
-    color: #E5E7EB;
+    color: #6C727F;
     opacity: 0.7;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    height: 50vh;
-    width: 100%;
-    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
-    border-radius: 16px 16px;
 }
 
 input {
     text-align: center;
     font: 500 16px;
-    height: 30%;
+    height: 48px;
     width: 90%;
-    background-color: rgba(185, 175, 175, 0.1);
+    color: #394150;
+    /* background-color: rgba(185, 175, 175, 0.1); */
+    background-color: #E5E7EB;
+    /* background-color: #F9FAFB; */
     border-style: hidden;
     border-color: rgb(214, 207, 207);
     border-width: 0.2px;
@@ -76,14 +90,15 @@ button {
     color: white;
     font: 600 16px;
     width: 90%;
-    height: 25%;
+    height: 48px;
     border-style: none;
     border-radius: 16px;
     margin: 16px 0;
 }
 
 #last {
-    color: #394150;
+    /* color: #394150; */
+    color: #6C727F;
     opacity: 0.7;
     margin-bottom: 16px;
 }
